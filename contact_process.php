@@ -2,7 +2,7 @@
 
 
 
-    $to = "mailhemantjoshi@gmail.com";
+    $to = "douglasbitok@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -15,9 +15,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "New mail fron hemant.codes";
+    $subject = "New mail fron Bitok.codes";
 
-    $logo = 'img/logo.png';
+    $logo = 'img/img.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
